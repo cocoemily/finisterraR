@@ -1,0 +1,20 @@
+Package: finisterraR
+Type: Package
+Title: Connect to FINISTERRA database server and get excavation data
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Emily", "Coco",
+      email = "eecoco@ualg.pt",
+      role = c("aut", "cre")
+    )
+  )
+Description: Using the Django API for data.finisterra.icarehb.com, excavation data can be pulled directly into R for analysis and visualization.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.3
+Imports:
+  httr2, 
+  askpass,
+  dplyr
