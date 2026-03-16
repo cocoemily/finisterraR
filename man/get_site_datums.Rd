@@ -4,16 +4,22 @@
 \alias{get_site_datums}
 \title{Get Site Datums}
 \usage{
-get_site_datums(con, db)
+get_site_datums(con, site)
+
+get_site_datums(con, site)
 }
 \arguments{
 \item{con}{Connection object from finisterra_server_connect()}
 
-\item{db}{The database name ('esc', 'cari', 'gdc')}
+\item{site}{The abbreviated site name ('esc', 'cari', 'gdc')}
 }
 \value{
 Dataframe with Datums table from the database
+
+Dataframe with Units table from the database
 }
 \description{
 Get Site Datums
+
+Get Site Units
 }

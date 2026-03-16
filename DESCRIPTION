@@ -17,4 +17,6 @@ RoxygenNote: 7.3.3
 Imports:
   httr2, 
   askpass,
-  dplyr
+  dplyr, 
+  rlang, 
+  magrittr
