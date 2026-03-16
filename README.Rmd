@@ -30,17 +30,10 @@ excavation data stored at data.finisterra.icarehb.com.
 | Function | Description | Returns |
 |:---|:---|:---|
 | `finisterra_server_connect()` | Authenticates with the API and creates a connection object. | `finisterra_con` |
-<<<<<<< HEAD
 | `get_site_data()` | Returns a joined dataframe of **XYZ** and **Context** tables for a specific site. | `data.frame` |
 | `get_site_contexts()` | Retrieves the raw **Context** table for a specific site. | `data.frame` |
 | `get_site_xyz()` | Retrieves the raw **XYZ** table for a specific site. | `data.frame` |
 | `get_site_datums()` | Retrieves the **Datums** table for a specific site. | `data.frame` |
-=======
-| `get_site_data()` | Returns a joined dataframe of **XYZ** and **Context** records. | `data.frame` |
-| `get_site_contexts()` | Fetches the raw **Context** table for a specific site. | `data.frame` |
-| `get_site_xyz()` | Fetches the raw **XYZ** table for a specific site. | `data.frame` |
-| `get_site_datums()` | Retrieves the **Datums** table. | `data.frame` |
->>>>>>> 06ef99d87408b5ee0f1a69d514a0e7eced1b162d
 | `get_site_units()` | Retrieves the **Units** table for a specific site. | `data.frame` |
 | `search_by_square()` | Joins and filters records for a specific excavation unit. | `data.frame` |
 
